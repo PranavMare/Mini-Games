@@ -23,3 +23,220 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 4 2 2020-09-15 21:38:43.757
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems while saving variables and containers
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4451)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4680)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4446)
+	... 9 more
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2020-09-15 21:38:43.807
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4446)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4680)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.core 4 4 2020-09-15 21:38:43.807
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4446)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4680)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 2 2020-09-15 21:38:43.870
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems while saving variables and containers
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:3316)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saving(JavaModelManager.java:3559)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.wst.jsdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:3244)
+	... 9 more
+!SUBENTRY 1 org.eclipse.wst.jsdt.core 4 4 2020-09-15 21:38:43.871
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.wst.jsdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:3244)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saving(JavaModelManager.java:3559)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.wst.jsdt.core 4 4 2020-09-15 21:38:43.871
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.wst.jsdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:3244)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saving(JavaModelManager.java:3559)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jdt.launching 4 4 2020-09-15 21:38:43.908
+!MESSAGE C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.jdt.launching\.install.xml (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.writeInstallInfo(LaunchingPlugin.java:1113)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin.access$0(LaunchingPlugin.java:1086)
+	at org.eclipse.jdt.internal.launching.LaunchingPlugin$1.saving(LaunchingPlugin.java:576)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 2 2 2020-09-15 21:38:43.981
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 566 2020-09-15 21:38:43.981
+!MESSAGE Problems occurred during save.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems while saving variables and containers
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4451)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4680)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4446)
+	... 9 more
+!SUBENTRY 2 org.eclipse.jdt.core 4 4 2020-09-15 21:38:43.982
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.jdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:4446)
+	at org.eclipse.jdt.internal.core.JavaModelManager.saving(JavaModelManager.java:4680)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.core.resources 2 566 2020-09-15 21:38:43.982
+!MESSAGE Problems occurred during save.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Problems while saving variables and containers
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:3316)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saving(JavaModelManager.java:3559)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.wst.jsdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:3244)
+	... 9 more
+!SUBENTRY 2 org.eclipse.wst.jsdt.core 4 4 2020-09-15 21:38:43.982
+!MESSAGE Problems while saving variables and containers
+!STACK 0
+java.io.FileNotFoundException: C:\Users\ADMIN\Desktop\Java Project\Mini Games\Tic Tac Toe\.metadata\.plugins\org.eclipse.wst.jsdt.core\variablesAndContainers.dat (Access is denied)
+	at java.base/java.io.FileOutputStream.open0(Native Method)
+	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:292)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:235)
+	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:185)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saveVariablesAndContainers(JavaModelManager.java:3244)
+	at org.eclipse.wst.jsdt.internal.core.JavaModelManager.saving(JavaModelManager.java:3559)
+	at org.eclipse.core.internal.resources.SaveManager.executeLifecycle(SaveManager.java:387)
+	at org.eclipse.core.internal.resources.SaveManager$1.run(SaveManager.java:204)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.resources.SaveManager.broadcastLifecycle(SaveManager.java:207)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1164)
+	at org.eclipse.core.internal.resources.SaveManager.save(SaveManager.java:1143)
+	at org.eclipse.core.internal.resources.DelayedSnapshotJob.run(DelayedSnapshotJob.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
