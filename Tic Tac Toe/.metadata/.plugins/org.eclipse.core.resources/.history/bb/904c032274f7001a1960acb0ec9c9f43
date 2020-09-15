@@ -3,8 +3,7 @@ package tictactoeapplication;
 
 /**
 *	@author PranavMare
-*
-*	Created on:15-Sep-2020 08:48:51 pm
+*	
 */	
 
 public class TicTacToe {
